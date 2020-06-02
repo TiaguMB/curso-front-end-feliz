@@ -1,9 +1,19 @@
 body {
-  width: 940px;
   color: #333333;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+header .container a {
+  cursor: pointer;
 }
 
 h1 {
@@ -58,4 +68,41 @@ footer img {
   margin-right: 30px;
   vertical-align: middle;
   width: 94px;
+}
+
+header nav ul {
+  margin: 0;
+}
+
+.sacola {
+  background-image: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+  text-align: right;
+  width: 140px;
+  padding-right: 35px;
+  padding-top: 8px;
+}
+
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-opcoes ul {
+  font-size: 15px;
+}
+
+.menu-opcoes a {
+  color: #003366;
+}
+
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 20px;
 }

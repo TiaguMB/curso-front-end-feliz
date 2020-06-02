@@ -12,6 +12,10 @@ header {
   width: 940px;
 }
 
+header .container a {
+  cursor: pointer;
+}
+
 .sacola {
   background-image: url(../img/sacola.png);
   background-repeat: no-repeat;
@@ -32,7 +36,7 @@ header {
   right: 0;
 }
 
-.menu-opcoes ol {
+.menu-opcoes ul {
   font-size: 15px;
 }
 
