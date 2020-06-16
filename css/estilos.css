@@ -78,3 +78,47 @@ header .container a {
 .busca input[type=search] {
   width: 170px;
 }
+
+.painel {
+  margin: 10px 0;
+  padding: 10px;
+  width: 445px;
+}
+
+.novidades {
+  float: left;
+}
+
+.mais-vendidos {
+  float: right;
+}
+
+.painel li {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  padding-bottom: 10px;
+}
+
+.painel h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.painel a {
+  color: #333333;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.novidades {
+  background-color: #f5dcdc;
+}
+
+.mais-vendidos {
+  background-color: #dcdcf5;
+}
+
