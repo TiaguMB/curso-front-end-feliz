@@ -49,6 +49,15 @@ header .container a {
   margin-left: 20px;
 }
 
+.menu-departamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.destaque {
+  margin-top: 10px;
+}
+
 .busca,
 .menu-departamentos {
   background-color: #dcdcdc;
@@ -76,6 +85,15 @@ header .container a {
 
   /* imagem replacement */
   text-indent: -9999px;
+}
+
+.busca,
+.menu-departamentos {
+  float: left;
+}
+
+.menu-departamentos {
+  clear: left;
 }
 
 .menu-departamentos li {
